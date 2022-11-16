@@ -23,9 +23,6 @@ typedef struct Faculty Faculty;
 
 int num_faculty, num_course, num_students, num_classroom = 0;
 
-// int** fac_cou_graph=NULL;
-// int** cou_stu_graph=NULL;
-
 
 void print_fac_cou_graph(int fac_cou_graph[num_faculty][num_course]){
 
@@ -407,16 +404,12 @@ void colorGraph(Student* s, Faculty* f, int fcg[num_faculty][num_course], int sc
                                 course_hours[j]++;
 
                             }
-
                         }
                     }
-
                 }
-
             }
         }
     }
-    
 }
 
 
