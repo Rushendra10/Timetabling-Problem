@@ -288,7 +288,7 @@ int color_usage[9] = {0};
 // do this until the student is free in that color slot.
 // Then you can color that color in both the graphs.
 
-void colorGraph(Student* s, Faculty* f, int fcg[num_faculty][num_course], int scg[3][num_course], int day){
+void colorEdges(Student* s, Faculty* f, int fcg[num_faculty][num_course], int scg[3][num_course], int day){
 
     for (int i=0; i<num_faculty; i++){
 
@@ -609,12 +609,12 @@ int main(void){
 
     printf("\n-------------COLOURED GRAPHS--------------------\n\n");
 
-    colorGraph(s, f, mon_fcg, mon_scg, 0);
-    colorGraph(s, f, tue_fcg, tue_scg, 1);
-    colorGraph(s, f, wed_fcg, wed_scg, 2);
-    colorGraph(s, f, thu_fcg, thu_scg, 3);
-    colorGraph(s, f, fri_fcg, fri_scg, 4);
-    colorGraph(s, f, sat_fcg, sat_scg, 5);
+    colorEdges(s, f, mon_fcg, mon_scg, 0);
+    colorEdges(s, f, tue_fcg, tue_scg, 1);
+    colorEdges(s, f, wed_fcg, wed_scg, 2);
+    colorEdges(s, f, thu_fcg, thu_scg, 3);
+    colorEdges(s, f, fri_fcg, fri_scg, 4);
+    colorEdges(s, f, sat_fcg, sat_scg, 5);
 
     printf("\nMonday\n");
     printf("Coloured faculty course graph\n\n");
