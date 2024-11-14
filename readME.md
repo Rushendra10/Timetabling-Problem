@@ -1,4 +1,4 @@
-#Timetabling Problem in C
+# Timetabling Problem in C
 
 This project provides a solution to the timetabling problem using C, aimed at generating a weekly schedule based on input constraints such as the number of classes, faculty availability, and course requirements. The approach leverages **graph coloring** to efficiently assign time slots to classes while avoiding conflicts.
 
