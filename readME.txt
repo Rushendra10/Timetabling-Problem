@@ -1,6 +1,18 @@
 Name: Rushendra Sidibomma
 Roll No.: S20200010179
 
+# Timetabling Problem in C
+
+This project provides a solution to the timetabling problem using C, aimed at generating a weekly schedule based on input constraints such as the number of classes, faculty availability, and course requirements. The approach leverages **graph coloring** to efficiently assign time slots to classes while avoiding conflicts.
+
+## Key Features
+- **Input Constraints**: Accepts parameters including the number of classes, faculty, and courses.
+- **Graph Coloring**: Utilizes graph coloring to handle time slot assignments and prevent scheduling conflicts.
+- **Output**: Generates a complete timetable for each day of the week.
+
+This solution offers a systematic approach to scheduling problems, ensuring efficient resource allocation
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 -> Instructions before running code and the input format:
     -> If you are using VS Code, please make sure that the files explorer on the left side is minimised.
     -> This is to ensure that text does not wrap around and the timetable is printed properly in the right format.
