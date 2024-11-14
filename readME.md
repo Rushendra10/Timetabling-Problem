@@ -12,7 +12,6 @@ This project provides a solution to the timetabling problem using C, aimed at ge
 
 This solution offers a systematic approach to scheduling problems, ensuring efficient resource allocation
 
------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Implementation Details
 -> Instructions before running code and the input format:
