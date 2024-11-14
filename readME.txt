@@ -13,6 +13,8 @@ This project provides a solution to the timetabling problem using C, aimed at ge
 This solution offers a systematic approach to scheduling problems, ensuring efficient resource allocation
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Implementation Details
 -> Instructions before running code and the input format:
     -> If you are using VS Code, please make sure that the files explorer on the left side is minimised.
     -> This is to ensure that text does not wrap around and the timetable is printed properly in the right format.
