@@ -11,10 +11,10 @@ This solution offers a systematic approach to scheduling problems, ensuring effi
 
 
 ## Implementation Details
--> Instructions before running code and the input format:
-    -> If you are using VS Code, please make sure that the files explorer on the left side is minimised.
-    -> This is to ensure that text does not wrap around and the timetable is printed properly in the right format.
-    -> The courses_ids should be entered for each UG and the ids should range from 0 to 11 (because there are 12 courses).
+-> Instructions before running code and the input format:\
+    -> If you are using VS Code, please make sure that the files explorer on the left side is minimised.\
+    -> This is to ensure that text does not wrap around and the timetable is printed properly in the right format.\
+    -> The courses_ids should be entered for each UG and the ids should range from 0 to 11 (because there are 12 courses).\
 
 -> Output Format explained:
     -> The GENERATED GRAPHS are the faculty-course graph and the student-course graph.
